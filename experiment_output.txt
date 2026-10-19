@@ -1,0 +1,26 @@
+--- Executed code cell 3 ---
+Initial MSE: 0.107561
+Final MSE:   0.002959
+Predictions [target, prediction]:
+[[0.05   0.0464]
+ [0.85   0.7723]
+ [0.85   0.7722]
+ [0.95   0.9391]
+ [0.7    0.7724]
+ [0.7    0.7724]
+ [0.1    0.1088]
+ [0.9    0.9299]]
+
+--- Executed code cell 6 ---
+
+SGD with momentum
+  Final training loss: 0.07338
+  Final test loss:     0.09040
+  Test accuracy:       0.9675
+  First test-loss epoch below 0.1: 7
+
+Adam
+  Final training loss: 0.07366
+  Final test loss:     0.09907
+  Test accuracy:       0.9575
+  First test-loss epoch below 0.1: 5
